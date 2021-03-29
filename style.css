@@ -1,0 +1,93 @@
+:root {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("images/fe.png");
+}
+
+
+.boum {
+    width: 400px;
+    height: 420px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: none;
+ }
+
+
+.ch {
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size:cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 35%;
+}
+
+.ch img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: block;
+    margin-right: auto;
+    margin-left: 150px;
+    margin-top: 90px;
+    align: center;
+    
+    position: absolute;       
+    background-color: white;  
+}
+
+
+.text {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.nom {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+spam {
+    color: hsl(185, 75%, 39%);
+    font-weight: 400;
+}
+
+.ville {
+    color: hsl(185, 75%, 39%); 
+    font-weight: 400;
+}
+
+hr {
+   color: hsl(0, 0%, 59%);
+   margin-top: 0px; 
+}
+
+.gen {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.stats {
+    font-size: 18px;
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.titre {
+    color:hsl(185, 75%, 39%);
+    font-weight: 400;
+}
